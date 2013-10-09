@@ -1,5 +1,7 @@
 def cats():
 	a=raw_input("enter a number")
-	print list(1-int(a))
+	b= range(int(a))
+	print b
 cats()
+
 
